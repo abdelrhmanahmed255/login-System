@@ -1,0 +1,69 @@
+body{
+    background-image: url(../earth-1617121_1920.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.back-ground-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #24353f34;
+}
+.back-ground-box-home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0b0b0b52;
+}
+.back-ground-box-home .group {
+    background-color: #ffffffe7;
+    padding: 20px;
+    height: 20%;
+    color: rgb(0, 0, 0);
+    box-shadow: -5px 2px 30px 5px rgba(12, 181, 238, 0.557)
+}
+.back-ground-box-home .group h2{
+    font-size: 3rem;
+    color: #2701ff;
+    font-family: "Kdam Thmor Pro", sans-serif;}
+h1 {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    color: #fcfcfc;
+    font-size: 3.5rem;
+transition: all  .8s;
+}
+h1:hover{
+    font-size: 3.3rem;
+    color: #00fbff;
+}
+a[href]{
+    text-decoration: none;
+}
+a[href]:hover{
+    text-decoration: underline;
+    color: #0dcaf0 !important;
+}
+.btn:hover{
+    --bs-btn-hover-color:white;
+}
+.form-control{
+    color: white !important;
+    --bs-body-bg : transparent;
+    border: 4px solid white;
+}
+.form-control:focus{
+    border-color: #0dcaf0;
+    box-shadow: 0 0 0 0.15rem #0dcaf0;
+}
+.form-control::placeholder{
+    text-align: center;
+    font-size: large;
+    color: white;
+}
